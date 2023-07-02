@@ -118,8 +118,6 @@ const fields: {
             type: type as Room['type'],
             capacity,
             sex,
-            // あとから合成
-            calendar: null,
           };
 
           return room;
