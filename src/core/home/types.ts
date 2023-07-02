@@ -22,13 +22,4 @@ export type Room = {
   type: '個室' | 'ドミトリー';
   capacity: number;
   sex: 'male' | 'female' | null;
-  calendar: {
-    reservedDates: string[];
-    calStartDate: string;
-    calEndDate: string;
-    reservablePeriod: string;
-    holidays: (0 | 1 | 2 | 3 | 4 | 5 | 6)[];
-    minDays: number;
-    availableWeeks: number;
-  } | null;
 };
