@@ -1,5 +1,5 @@
 import { notFoundMessage, userAgent } from '../../../constants';
-import { Room } from '../types';
+import { Room } from './types';
 
 type FetchSearchRoomResponse = {
   rooms: Room[];
