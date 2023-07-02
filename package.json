@@ -1,5 +1,5 @@
 {
-  "name": "@traveller-api/address-fetcher",
+  "name": "@travellers-api/address-fetcher",
   "version": "0.3.0",
   "publishConfig": {
     "access": "public",
