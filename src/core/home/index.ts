@@ -1,6 +1,6 @@
 import { fetchHome } from './fetchers';
 
-export const getHome = async (id: string, cookie: string) => {
-  const home = await fetchHome(id, cookie);
+export const getHome = async (homeId: number, cookie: string) => {
+  const home = await fetchHome(homeId, cookie);
   return home;
 };
