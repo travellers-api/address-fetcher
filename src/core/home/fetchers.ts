@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { userAgent } from '../../constants';
+import { notFoundMessage, userAgent } from '../../constants';
 import { parseHomePage } from './parsers';
 import { Home } from './types';
 
@@ -11,7 +11,7 @@ export const fetchHome = async (homeId: number, cookie: string): Promise<Home> =
     },
   });
   if (!res.ok && res.status === 404) {
-    throw new Error('not found');
+    throw new Error(notFoundMessage);
   }
   if (!res.ok) {
     throw new Error();
