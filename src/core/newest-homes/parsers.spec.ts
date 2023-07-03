@@ -971,7 +971,7 @@ describe('parseHomeSearchPage', () => {
     expect(homes).toEqual([
       {
         id: 440,
-        url: 'https://address.home/homes/440',
+        url: 'https://address.love/homes/440',
         name: '静岡音羽町A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/5536/6000f27b-c1e7-40ca-be56-5ba288d88c58.jpg',
@@ -981,7 +981,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 434,
-        url: 'https://address.home/homes/434',
+        url: 'https://address.love/homes/434',
         name: '桜川A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/5515/7423118d-0338-4786-ae78-9e31bc21cdf6.jpeg',
@@ -991,7 +991,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 436,
-        url: 'https://address.home/homes/436',
+        url: 'https://address.love/homes/436',
         name: '沖縄那覇F邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/5473/32811ca5-0792-4843-ae2b-f569e41cb06b.JPG',
@@ -1001,7 +1001,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 433,
-        url: 'https://address.home/homes/433',
+        url: 'https://address.love/homes/433',
         name: '三ケ日A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/5493/61687ff3-ced7-44dc-9f9c-581af5816e44.JPG',
@@ -1011,7 +1011,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 431,
-        url: 'https://address.home/homes/431',
+        url: 'https://address.love/homes/431',
         name: '豊丘A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/5457/48932489-9271-4e5d-8a03-47433ea5b62a.jpeg',
@@ -1021,7 +1021,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 417,
-        url: 'https://address.home/homes/417',
+        url: 'https://address.love/homes/417',
         name: '筑後A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/5316/f9549621-3cdc-4262-8684-1eb573188d75.jpeg',
@@ -1031,7 +1031,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 404,
-        url: 'https://address.home/homes/404',
+        url: 'https://address.love/homes/404',
         name: '対馬B邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/5027/e30b540d-f619-4c80-b3d3-805f9a9580e5.JPG',
@@ -1041,7 +1041,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 403,
-        url: 'https://address.home/homes/403',
+        url: 'https://address.love/homes/403',
         name: '日置B邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4999/3a563ff9-8b29-4f59-81ed-e10ef9ffe307.jpg',
@@ -1051,7 +1051,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 393,
-        url: 'https://address.home/homes/393',
+        url: 'https://address.love/homes/393',
         name: '福井A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4949/d95916fe-721a-4750-ae77-9492146c3b1f.jpg',
@@ -1061,7 +1061,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 394,
-        url: 'https://address.home/homes/394',
+        url: 'https://address.love/homes/394',
         name: '沖縄本部C邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4881/7428ae8a-b6c1-45b7-8be1-6563dd66b8b0.jpg',
@@ -1071,7 +1071,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 405,
-        url: 'https://address.home/homes/405',
+        url: 'https://address.love/homes/405',
         name: '佐賀A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4859/1c7dc1f6-67a4-42cb-adf1-5a6d3a011041.jpg',
@@ -1081,7 +1081,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 386,
-        url: 'https://address.home/homes/386',
+        url: 'https://address.love/homes/386',
         name: '霧島A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4722/53f68df1-31a2-4b9e-8db9-e8b3e3001f6c.jpg',
@@ -1091,7 +1091,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 382,
-        url: 'https://address.home/homes/382',
+        url: 'https://address.love/homes/382',
         name: '佐島A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4694/c026ac52-8ce3-44e7-b01a-680b8beb0b0e.jpg',
@@ -1101,7 +1101,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 379,
-        url: 'https://address.home/homes/379',
+        url: 'https://address.love/homes/379',
         name: '千倉B邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4655/e17e5de2-f5a8-40b6-a989-3ec66b7a8c7a.jpg',
@@ -1111,7 +1111,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 373,
-        url: 'https://address.home/homes/373',
+        url: 'https://address.love/homes/373',
         name: '沖縄国頭村A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4540/6d946024-682b-4514-81e4-d0a02356c8a7.jpg',
@@ -1121,7 +1121,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 369,
-        url: 'https://address.home/homes/369',
+        url: 'https://address.love/homes/369',
         name: '川越A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4397/bcdadf95-758a-49af-873a-6947656662e2.jpeg',
@@ -1131,7 +1131,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 360,
-        url: 'https://address.home/homes/360',
+        url: 'https://address.love/homes/360',
         name: '富士A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4317/d93b0abc-a06f-45af-9cc9-33b75b8cdf1a.jpg',
@@ -1141,7 +1141,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 363,
-        url: 'https://address.home/homes/363',
+        url: 'https://address.love/homes/363',
         name: '東松島A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4284/9799e17e-049f-4ab1-8334-e2dc103247a5.jpg',
@@ -1151,7 +1151,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 353,
-        url: 'https://address.home/homes/353',
+        url: 'https://address.love/homes/353',
         name: '富岡A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4203/2a27550d-ca89-4a0d-90b2-9d6d57953b03.jpg',
@@ -1161,7 +1161,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 345,
-        url: 'https://address.home/homes/345',
+        url: 'https://address.love/homes/345',
         name: '那智勝浦A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/4065/fd441423-0ddf-4b04-9f39-aec4918c28b5.jpg',
@@ -1171,7 +1171,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 340,
-        url: 'https://address.home/homes/340',
+        url: 'https://address.love/homes/340',
         name: '横浜杉田A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/3969/7d656a7f-e434-44bc-af0c-5ff543ed49f0.jpg',
@@ -1181,7 +1181,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 338,
-        url: 'https://address.home/homes/338',
+        url: 'https://address.love/homes/338',
         name: '椎名町B邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/3957/9c6ef969-75c2-4464-b5d1-b2c01f629210.JPG',
@@ -1191,7 +1191,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 324,
-        url: 'https://address.home/homes/324',
+        url: 'https://address.love/homes/324',
         name: '湖南A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/3720/921105a3-57c3-459d-b155-ad3f6e3f15aa.jpg',
@@ -1201,7 +1201,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 322,
-        url: 'https://address.home/homes/322',
+        url: 'https://address.love/homes/322',
         name: '阿字ヶ浦C邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/3689/8cb9cb88-2b2a-4794-afb5-5c2a66257601.jpg',
@@ -1211,7 +1211,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 323,
-        url: 'https://address.home/homes/323',
+        url: 'https://address.love/homes/323',
         name: '東伊豆A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/3693/e63f8ba1-548a-4a60-9ee8-db3af5023b2f.png',
@@ -1221,7 +1221,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 317,
-        url: 'https://address.home/homes/317',
+        url: 'https://address.love/homes/317',
         name: '大三島A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/3606/21c92fc6-17fe-49b0-8cc3-6b448c0e5329.jpg',
@@ -1231,7 +1231,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 305,
-        url: 'https://address.home/homes/305',
+        url: 'https://address.love/homes/305',
         name: '沖縄恩納村A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/3316/333a805a-a3ee-437a-ac1d-8e17e3465d09.jpg',
@@ -1241,7 +1241,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 276,
-        url: 'https://address.home/homes/276',
+        url: 'https://address.love/homes/276',
         name: '水戸B邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/2783/dc152fec-88d4-4e69-9052-9ef34284064f.jpg',
@@ -1251,7 +1251,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 271,
-        url: 'https://address.home/homes/271',
+        url: 'https://address.love/homes/271',
         name: 'いすみB邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/2713/edf99ca7-4db2-4d15-b4eb-60a3d24e2bbb.jpg',
@@ -1261,7 +1261,7 @@ describe('parseHomeSearchPage', () => {
       },
       {
         id: 265,
-        url: 'https://address.home/homes/265',
+        url: 'https://address.love/homes/265',
         name: '椎名町A邸',
         thumbnail:
           'https://cdn.address.love/uploads/images/home_image/image/2612/6c12003a-6032-4e7c-babd-a823b7a95c56.jpg',
