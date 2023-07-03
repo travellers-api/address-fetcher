@@ -1,6 +1,7 @@
 {
   "name": "@travellers-api/address-fetcher",
   "version": "0.5.2",
+  "license": "MIT",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
