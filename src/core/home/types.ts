@@ -22,4 +22,5 @@ export type Room = {
   type: '個室' | 'ドミトリー';
   capacity: number;
   sex: 'male' | 'female' | null;
+  beds: string[];
 };
