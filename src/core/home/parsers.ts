@@ -110,6 +110,20 @@ const fields: {
           );
           const sexLabel = $(elm).find('.room-item-info li img[src*="Icon-door"] + p + p').text().trim();
           const sex = sexLabel === '男性専用' ? 'male' : sexLabel === '女性専用' ? 'female' : null;
+          const beds = $(elm)
+            .find('.room-item-info li img[src*="Icon-bed"] + p + p')
+            .text()
+            .trim()
+            .split(', ')
+            .map((text) => {
+              const matches = text.trim().match(/(.+) x (\d)/);
+              if (!matches) {
+                return [];
+              }
+              const [, name = '', count = '0'] = matches;
+              return Array(Number(count)).fill(name);
+            })
+            .flat();
 
           const room: Home['rooms'][0] = {
             id,
@@ -118,6 +132,7 @@ const fields: {
             type: type as Room['type'],
             capacity,
             sex,
+            beds,
           };
 
           return room;
