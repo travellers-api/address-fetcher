@@ -13,12 +13,12 @@
   "scripts": {
     "build": "rimraf lib && tsc",
     "build:watch": "rimraf lib && tsc --watch",
-    "start": "yarn shell",
+    "start": "pnpm run shell",
     "lint": "eslint --ext .js,.ts .",
     "format": "prettier --write .",
     "test": "jest",
     "prepare": "husky install",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
