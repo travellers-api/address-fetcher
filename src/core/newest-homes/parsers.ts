@@ -17,7 +17,7 @@ export const parseHomeSearchPage = (html: string): HomeForSearch[] => {
       const home: HomeForSearch = {
         id,
         url: `https://address.love/homes/${id}`,
-        name: $elm.find('.homes-card__title').text(),
+        name: $elm.find('.homes-card__title').text().replace($elm.find('.homes-card__title .tab-label-new').text(), ''),
         thumbnail: $elm.find('img').attr('src') ?? '',
         prefecture: $elm.find('.homes-card__info p:nth-child(1)').text(),
         homeType: $elm.find('.homes-card__info p:nth-child(2)').text(),
